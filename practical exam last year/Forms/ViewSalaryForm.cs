@@ -31,7 +31,7 @@ namespace practical_exam_last_year
 
         private void ViewSalaryForm_Load(object sender, EventArgs e)
         {
-            //dataGridView1.AutoGenerateColumns = true;
+            dataGridView1.AutoGenerateColumns = false;
 
             dataGridView1.Columns.Clear();// clear any existing columns
             dataGridView1.Columns.Add(new DataGridViewTextBoxColumn
